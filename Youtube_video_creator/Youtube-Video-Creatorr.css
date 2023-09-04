@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.logoname{
+   align-items: center;
+   text-align: center;
+   font: 2.4rem "Space Grotesk", sans-serif;
+   padding-top: 1.5rem;
+   margin-left: .8rem;
+   font-weight: 600;
+}
+.logoname:hover{
+    color: gold;
+}
+.navbar-nav{
+    text-align: center;
+    margin-left: 36rem !important;
+    padding-left:  2.0px;
+    margin: 5rem;
+}
+.navbar-nav a{
+    margin: 1.5rem;
+    font-weight: bold;
+    color: #232323;
+    font-size: 1.8rem;
+    margin-top: -1rem;
+}
+.navbar-nav a:hover{
+    color: gold;
+}
+.btns a{
+    text-decoration: none;
+    margin: 1.5rem;
+    font-weight: 600;
+    color: #232323;
+    font: 1.8rem;
+    border: solid gold .1rem ;
+    border-radius: 3.0rem;
+    padding: 1.6rem 2.5rem;
+    background-color: gold;
+}
+#lv{
+    background-color: #232323; 
+    color: white;
+    border: solid #232323 .1rem ;
+    font-size: 1.5rem;
+}
+#sub{
+    font-size: 1.5rem;
+}
+#lv:hover{
+    background-color: gold; 
+    color: #232323;
+    border: solid gold .1rem ;
+}
+#sub:hover{
+    background-color: #232323; 
+    color: white;
+    border: solid #232323 .1rem ;
+}
+#banner{
+    margin-top: 12.5rem;
+}
+.promo-title{
+    margin-top: 1.0rem;
+    font-size: 7.0rem;
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.loremm{
+    color: #8c8c95;
+}
+.colimg{
+    height: 67.9rem;
+    width: 47.6rem;
+    margin-left: 2.0rem;
+
+}
+.container{
+    margin-top: 10.0rem;
+    display: flex;
+    
+}
+    
+.container p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 2.0rem;
+    color: #5F5D68;
+    /* margin-left: 30px; */
+
+}
+.container a img{
+    height: 7.0rem;
+    width: 20.0rem;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 5.0rem;
+
+
+}
+.Acolimg{
+    height: 55.0rem;
+    width: 55.0rem;
+    margin-top: -1.5rem;
+}
+.card{
+    margin-top: -5.0rem;
+}
+.card-body a:hover{
+    background-color: #232323;
+    border: none;
+    color: white;
+}
+.card:hover{
+   margin-top: -7.0rem;
+    
+}
+#EP_btns{
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    margin-top: 5.0rem;
+}
+.Rewh2{
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    margin-top: 2.0rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* reviews */
+
+.testimonial-card .card-up {
+    height: 12.0rem;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  .testimonial-card .avatar {
+    width: 11.0rem;
+    margin-top: -6.0rem;
+    overflow: hidden;
+    border: .3rem solid #fff;
+    border-radius: 5.0%;
+  }
+
+  .container .Reviews{
+    margin-top: 3.0rem !important;
+  }
+  #Rew_btns{
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    margin-top: 5.0rem;
+
+  }
+  #conttl{
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+  }
+  .contform{
+    height: 80.0rem;
+    width: 80.0rem;
+    margin-top: 4.5rem;
+    margin-left: 60.0rem;
+    font-size: 1.7rem;
+  }
+ .btn .btn-warning:hover{
+    background-color:#232323;
+ }
+
+                                                   /* footer */
+.footer__content{
+    font-size: 2rem;
+}                                                   
+
+ /* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #232323;  
+    color: #fff;
+    padding: 1.5rem 0;
+}
+
+.footer__content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Subscribe Section Styles */
+.footer__subscribe {
+    margin: 0 0 1rem 0;
+}
+
+.footer__subscribe-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer__subscribe-desc {
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+
+.footer__subscribe-form {
+    display: flex;
+    align-items: center;
+}
+
+.footer__subscribe-input {
+    padding: 0.4rem;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 0.9rem;
+}
+
+.footer__subscribe-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.footer__subscribe-button:hover {
+    background-color: gold;
+    color: black;
+}
+
+/* Other Section Styles */
+.footer__section {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.footer__company-name {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.footer__about {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.footer__section-title {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.footer__social-links,
+.footer__resources,
+.footer__terms {
+    list-style: none;
+    margin-left: 0.5rem;
+}
+
+.footer__social-link,
+.footer__resource-link,
+.footer__terms-link {
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer__social-link:hover,
+.footer__resource-link:hover,
+.footer__terms-link:hover {
+    color: #ffd700; /* Gold color */
+}
+/* ... (previous styles) ... */
+
+/* Social Links Styles */
+.footer__social-link {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer__social-link i {
+    font-size: 1.5rem;
+}
+
+.footer__social-link:hover {
+    color: #ffd700; /* Gold color */
+}
+
+/* Design Elements */
+.footer__design {
+    width: 100%;
+    height: 1px;
+    background-color: #444;
+    margin: 1rem 0;
+}
+
+
+/* Rights Section Styles */
+.footer__rights {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer__rights-text {
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+
+
+
+
+
+
+                     /* Code for responsiveness */
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+    .contform{
+        height: 80.0rem;
+        width: 40.0rem;
+        margin-top: 4.5rem;
+        margin-left: 5.0rem;
+        align-items: center;
+        font-size: 1.5rem;
+      }
+      #lv{
+        visibility: hidden;
+    }
+    #sub{
+        visibility: hidden;   
+    }
+
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
